@@ -1,0 +1,328 @@
+/*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+/* COLORS
+#769fcd;
+#b9d7ea;
+#d6e6f2;
+#f7fbfc;
+
+ */
+body {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 23px;
+}
+
+h2, h3, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  color: #769fcd;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+}
+
+.prof-img {
+  width: 600px;
+  height: 600px;
+  border-radius: 5%;
+}
+
+
+#intro {
+  padding: 7% 2%;
+  background-color: #b9d7ea;
+  text-align: center;
+}
+
+.nav-item:active {
+  background-color: #b9d7ea;
+}
+
+.nav-item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 0 15px;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.position {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: lighter;
+  color: #393e46;
+}
+
+.objectives {
+  color: #fff;
+  padding: 50px;
+}
+
+.nav-link:hover {
+  background-color: #b9d7ea;
+  color: #769fcd;
+}
+
+.icons {
+  padding: 10px;
+}
+
+.fa {
+  color: #769fcd;
+}
+
+.icons-header:hover {
+  color: #b9d7ea;
+}
+.download-btn {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+.sub-section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.sub-section-title-exp {
+margin-bottom: 80px;
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+font-weight: bold;
+text-decoration: underline;
+}
+#education {
+  background-color: #f7fbfc;
+}
+.edu1-img, .edu3-img, .edu2-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5% 15%;
+}
+
+
+
+.edu1-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.edu2-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.edu3-img {
+  float: Left;
+  margin-right: 30px;
+}
+.row1 {
+  margin: 10%;
+}
+.edu-p {
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+
+}
+td {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+th {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+#experience {
+  padding: 10%;
+  padding-bottom: 3%
+}
+
+.tbl-heading {
+  background-color: #b9d7ea;
+}
+
+
+.exp-p {
+  text-align: left;
+}
+
+.icons-top {
+display: inline;
+display: flex;
+flex-direction: row;
+}
+
+
+.seriel {
+  color: black;
+}
+
+#skills {
+  padding: 5% 25%;
+  background-color: #b9d7ea;
+}
+
+
+
+.hob-icons {
+  border: 2px solid;
+  background-color: #769fcd;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.hob-icons:hover {
+  background-color: #b9d7ea;
+  color: grey;
+}
+
+.p-hobbies {
+  text-align: center;
+  font-size: 14px;
+
+}
+
+
+#hobbies {
+  padding: 7% 27% 7%;
+}
+
+.social-icons {
+  width: 100%;
+  display: inline;
+  display: flex;
+  flex-direction: row;
+}
+
+
+footer {
+  background-color: #b9d7ea;
+  color: #fff;
+  font-size: 14px;
+  padding: 100px 200px 35px;
+
+}
+
+.row-footer {
+  width: 300px;
+  margin: 20px auto;
+}
+.icons-foorter {
+  color: #769fcd;
+}
+
+.icons-foorter:hover {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .prof-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 5%;
+}
+
+td {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+}
+th {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+#experience {
+  padding: 10px;
+}
+.edu1-img, .edu3-img, .edu2-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 3% 10%;
+}
+
+#skills {
+  padding: 5% 10%;
+}
+
+.edu1-img {
+  float: left;
+  margin-right: 10px;
+}
+
+.edu2-img {
+  float: right;
+  margin-left: 10px;
+}
+
+.edu3-img {
+  float: Left;
+  margin-right: 10px;
+    }
+    .edu-p {
+      text-align:justify;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+}
+h3, h4 {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.fa {
+  width: 100%;
+  display: inline;
+  display: flex;
+  flex-direction: row;
+}
+.icons-top {
+position: absolute;
+top: 10px;
+right: 30%;
+flex-direction: row;
+display: flex;
+}
+#hobbies {
+  padding: 4% 24% 4%;
+}
